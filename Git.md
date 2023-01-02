@@ -68,11 +68,11 @@
 
 `git branch -d <branch-name>`				    Delete specified branch locally (then must be removed remote: git pull --prune)
 
-`git pull --prune					            Updates(delete) remote branche when said branch is deleted locally
+`git pull --prune`					            Updates(delete) remote branche when said branch is deleted locally
 
-`git push -u origin <new-branch-name>	Push newly created branch to Remote repo/ -u: create new branch with name
+`git push -u origin <new-branch-name>`	Push newly created branch to Remote repo/ -u: create new branch with name
 
-`git push						                  Push changes to current branch if it is existing to Remote repo
+`git push`						                Push changes to current branch if it is existing to Remote repo
 
 
 **NB**: To merge you must be in target branch and specify the branch which is changes source:
